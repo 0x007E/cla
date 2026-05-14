@@ -26,7 +26,7 @@ jobs:
         cp ./LICENSE ${{ env.OutputFolder }}
 
     - name: Run KiBOT
-      uses: INTI-CMNB/KiBot@v2_dk7
+      uses: INTI-CMNB/KiBot@v2_k9
       with:
         config: ${{ env.ConfigFilePath }}
         dir: ${{ env.OutputFolder }}
