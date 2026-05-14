@@ -24,12 +24,12 @@ preflight:
   run_erc: true
   run_drc: true
   filters:
-    - filter: 'does not match copy in library'
-      error: 'lib_footprint_mismatch'
-      regex: 'does not match copy in library'
-    - filter: 'Hole clearance violation'
-      error: 'hole_clearance'
-      regex: 'Hole clearance violation'
+    # - filter: 'does not match copy in library'
+    #   error: 'lib_footprint_mismatch'
+    #   regex: 'does not match copy in library'
+    # - filter: 'Hole clearance violation'
+    #   error: 'hole_clearance'
+    #   regex: 'Hole clearance violation'
     - filter: 'Silkscreen clipped by solder mask'
       error: 'silk_over_copper'
       regex: 'Silkscreen clipped by solder mask'
